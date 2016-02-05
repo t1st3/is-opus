@@ -1,0 +1,40 @@
+{
+  "name": "is-opus",
+  "version": "0.1.0",
+  "description": "Check if a Buffer/Uint8Array is an OPUS audio file",
+  "license": "MIT",
+  "repository": "t1st3/is-opus",
+  "author": {
+    "name": "t1st3",
+    "email": "contact@tiste.org",
+    "url": "http://www.tiste.org"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "opus",
+    "audio",
+    "codec",
+    "web",
+    "ogg",
+    "type",
+    "detect",
+    "check",
+    "is",
+    "binary",
+    "buffer",
+    "uint8array"
+  ],
+  "devDependencies": {
+    "ava": "^0.10.0",
+    "read-chunk": "^1.0.1",
+    "xo": "^0.12.1"
+  }
+}
