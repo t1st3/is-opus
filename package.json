@@ -1,6 +1,6 @@
 {
   "name": "is-opus",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Check if a Buffer/Uint8Array is an OPUS audio file",
   "license": "MIT",
   "repository": "t1st3/is-opus",
