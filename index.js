@@ -5,8 +5,8 @@ module.exports = function (buf) {
 		return false;
 	}
 
-	// bytes 0 to 3: detect general OGG (OPUS is OGG)
-	// bytes 28 to 35: detect OPUS
+	// Bytes 0 to 3: detect general OGG (OPUS is OGG)
+	// Bytes 28 to 35: detect OPUS
 	return buf[0] === 79 &&
 		buf[1] === 103 &&
 		buf[2] === 103 &&
