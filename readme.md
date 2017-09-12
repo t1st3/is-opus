@@ -15,7 +15,7 @@ $ npm install --save is-opus
 
 ## Usage
 
-##### Node.js
+### Node.js
 
 ```js
 var readChunk = require('read-chunk'); // npm install read-chunk
@@ -26,7 +26,7 @@ isOpus(buffer);
 //=> true
 ```
 
-##### Browser
+### Browser
 
 ```js
 var xhr = new XMLHttpRequest();
@@ -53,4 +53,4 @@ It only needs the first 36 bytes.
 
 ## License
 
-MIT © [t1st3](http://www.tiste.org)
+MIT © [t1st3](https://t1st3.com)
