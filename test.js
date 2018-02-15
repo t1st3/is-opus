@@ -1,7 +1,7 @@
 import path from 'path';
 import readChunk from 'read-chunk';
 import test from 'ava';
-import isOpus from './';
+import isOpus from '.';
 
 test('should detect OPUS from buffer', t => {
 	t.is(isOpus(readChunk.sync(path.join(__dirname, 'fixture.opus'), 0, 36)), true);
